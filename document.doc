@@ -1,0 +1,42 @@
+Polymorphism
+
+1. Static Polymorphism
+    a. Function Overloading
+    b. Operator Overloading
+
+2. Dynamic Polymorphism
+    a. abstract classes. 
+    b. virtual functions
+
+
+Polymorphism: The word polymorphism means having many forms. In object-oriented programming paradigm, polymorphism is often expressed as 'one interface, multiple functions'.
+
+Static Polymorphism: The mechanism of linking a function with an object during compile time is called early binding. It is also called static binding. C# provides two techniques to implement static polymorphism. 
+
+Function Overloading: You can have multiple definitions for the same function name in the same scope. The definition of the function must differ from each other by the types and/or the number of arguments in the argument list. 
+
+Dynamic Polymorphism: C# allows you to create abstract classes that are used to provide partial class implementation of an interface. Implementation is completed when a derived class inherits from it. Abstract classes contain abstract methods, which are implemented by the derived class. 
+    The derived classes have more specialized functionality.
+
+   Here are the rules about abstract classes −
+
+        1. You cannot create an instance of an abstract class
+
+        2.You cannot declare an abstract method outside an abstract class
+
+        3.When a class is declared sealed, it cannot be inherited, abstract classes cannot be declared sealed. 
+When you have a function defined in a class that you want to be implemented in an inherited class(es), you use virtual functions. The virtual functions could be implemented differently in different inherited class and the call to these functions will be decided at runtime.
+Dynamic polymorphism is implemented by abstract classes and virtual functions.
+
+---------------------------------------------
+Interface:
+---------------------------------------------
+
+
+
+
+
+
+
+
+
